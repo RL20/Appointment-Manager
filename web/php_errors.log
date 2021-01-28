@@ -1,0 +1,120 @@
+[25-Apr-2017 17:39:49 Europe/Amsterdam] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'admin'@'localhost' (using password: YES) in C:\Users\Harel\PhpstormProjects\newSilexProject\Project3\managers\SQLConnection.php on line 24
+[25-Apr-2017 17:39:49 Europe/Amsterdam] PHP Stack trace:
+[25-Apr-2017 17:39:49 Europe/Amsterdam] PHP   1. {main}() C:\Users\Harel\PhpstormProjects\newSilexProject\web\index.php:0
+[25-Apr-2017 17:39:49 Europe/Amsterdam] PHP   2. Silex\Application->run() C:\Users\Harel\PhpstormProjects\newSilexProject\web\index.php:20
+[25-Apr-2017 17:39:49 Europe/Amsterdam] PHP   3. Silex\Application->handle() C:\Users\Harel\PhpstormProjects\newSilexProject\vendor\silex\silex\src\Silex\Application.php:477
+[25-Apr-2017 17:39:49 Europe/Amsterdam] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() C:\Users\Harel\PhpstormProjects\newSilexProject\vendor\silex\silex\src\Silex\Application.php:496
+[25-Apr-2017 17:39:49 Europe/Amsterdam] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() C:\Users\Harel\PhpstormProjects\newSilexProject\vendor\symfony\http-kernel\HttpKernel.php:68
+[25-Apr-2017 17:39:49 Europe/Amsterdam] PHP   6. call_user_func_array:{C:\Users\Harel\PhpstormProjects\newSilexProject\vendor\symfony\http-kernel\HttpKernel.php:153}() C:\Users\Harel\PhpstormProjects\newSilexProject\vendor\symfony\http-kernel\HttpKernel.php:153
+[25-Apr-2017 17:39:49 Europe/Amsterdam] PHP   7. {closure:C:\Users\Harel\PhpstormProjects\newSilexProject\app\controllers.php:37-45}() C:\Users\Harel\PhpstormProjects\newSilexProject\vendor\symfony\http-kernel\HttpKernel.php:153
+[25-Apr-2017 17:39:49 Europe/Amsterdam] PHP   8. commonActions::getFirst20AvailableAppointments() C:\Users\Harel\PhpstormProjects\newSilexProject\app\controllers.php:41
+[25-Apr-2017 17:39:49 Europe/Amsterdam] PHP   9. WorkHoursDBDAO::getAllEmpWorkHours() C:\Users\Harel\PhpstormProjects\newSilexProject\Project3\actions\commonActions.php:155
+[25-Apr-2017 17:39:49 Europe/Amsterdam] PHP  10. SQLConnection::getConnection() C:\Users\Harel\PhpstormProjects\newSilexProject\Project3\managers\WorkHoursDBDAO.php:53
+[25-Apr-2017 17:39:49 Europe/Amsterdam] PHP  11. mysqli->__construct() C:\Users\Harel\PhpstormProjects\newSilexProject\Project3\managers\SQLConnection.php:24
+[25-Apr-2017 17:39:49 Europe/Amsterdam] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in C:\Users\Harel\PhpstormProjects\newSilexProject\Project3\managers\WorkHoursDBDAO.php on line 55
+[25-Apr-2017 17:39:49 Europe/Amsterdam] PHP Stack trace:
+[25-Apr-2017 17:39:49 Europe/Amsterdam] PHP   1. {main}() C:\Users\Harel\PhpstormProjects\newSilexProject\web\index.php:0
+[25-Apr-2017 17:39:49 Europe/Amsterdam] PHP   2. Silex\Application->run() C:\Users\Harel\PhpstormProjects\newSilexProject\web\index.php:20
+[25-Apr-2017 17:39:49 Europe/Amsterdam] PHP   3. Silex\Application->handle() C:\Users\Harel\PhpstormProjects\newSilexProject\vendor\silex\silex\src\Silex\Application.php:477
+[25-Apr-2017 17:39:49 Europe/Amsterdam] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() C:\Users\Harel\PhpstormProjects\newSilexProject\vendor\silex\silex\src\Silex\Application.php:496
+[25-Apr-2017 17:39:49 Europe/Amsterdam] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() C:\Users\Harel\PhpstormProjects\newSilexProject\vendor\symfony\http-kernel\HttpKernel.php:68
+[25-Apr-2017 17:39:49 Europe/Amsterdam] PHP   6. call_user_func_array:{C:\Users\Harel\PhpstormProjects\newSilexProject\vendor\symfony\http-kernel\HttpKernel.php:153}() C:\Users\Harel\PhpstormProjects\newSilexProject\vendor\symfony\http-kernel\HttpKernel.php:153
+[25-Apr-2017 17:39:49 Europe/Amsterdam] PHP   7. {closure:C:\Users\Harel\PhpstormProjects\newSilexProject\app\controllers.php:37-45}() C:\Users\Harel\PhpstormProjects\newSilexProject\vendor\symfony\http-kernel\HttpKernel.php:153
+[25-Apr-2017 17:39:49 Europe/Amsterdam] PHP   8. commonActions::getFirst20AvailableAppointments() C:\Users\Harel\PhpstormProjects\newSilexProject\app\controllers.php:41
+[25-Apr-2017 17:39:49 Europe/Amsterdam] PHP   9. WorkHoursDBDAO::getAllEmpWorkHours() C:\Users\Harel\PhpstormProjects\newSilexProject\Project3\actions\commonActions.php:155
+[25-Apr-2017 17:39:49 Europe/Amsterdam] PHP  10. mysqli->prepare() C:\Users\Harel\PhpstormProjects\newSilexProject\Project3\managers\WorkHoursDBDAO.php:55
+[25-Apr-2017 17:39:49 Europe/Amsterdam] PHP Warning:  WorkHoursDBDAO::getAllEmpWorkHours(): Couldn't fetch mysqli in C:\Users\Harel\PhpstormProjects\newSilexProject\Project3\managers\WorkHoursDBDAO.php on line 56
+[25-Apr-2017 17:39:49 Europe/Amsterdam] PHP Stack trace:
+[25-Apr-2017 17:39:49 Europe/Amsterdam] PHP   1. {main}() C:\Users\Harel\PhpstormProjects\newSilexProject\web\index.php:0
+[25-Apr-2017 17:39:49 Europe/Amsterdam] PHP   2. Silex\Application->run() C:\Users\Harel\PhpstormProjects\newSilexProject\web\index.php:20
+[25-Apr-2017 17:39:49 Europe/Amsterdam] PHP   3. Silex\Application->handle() C:\Users\Harel\PhpstormProjects\newSilexProject\vendor\silex\silex\src\Silex\Application.php:477
+[25-Apr-2017 17:39:49 Europe/Amsterdam] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() C:\Users\Harel\PhpstormProjects\newSilexProject\vendor\silex\silex\src\Silex\Application.php:496
+[25-Apr-2017 17:39:49 Europe/Amsterdam] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() C:\Users\Harel\PhpstormProjects\newSilexProject\vendor\symfony\http-kernel\HttpKernel.php:68
+[25-Apr-2017 17:39:49 Europe/Amsterdam] PHP   6. call_user_func_array:{C:\Users\Harel\PhpstormProjects\newSilexProject\vendor\symfony\http-kernel\HttpKernel.php:153}() C:\Users\Harel\PhpstormProjects\newSilexProject\vendor\symfony\http-kernel\HttpKernel.php:153
+[25-Apr-2017 17:39:49 Europe/Amsterdam] PHP   7. {closure:C:\Users\Harel\PhpstormProjects\newSilexProject\app\controllers.php:37-45}() C:\Users\Harel\PhpstormProjects\newSilexProject\vendor\symfony\http-kernel\HttpKernel.php:153
+[25-Apr-2017 17:39:49 Europe/Amsterdam] PHP   8. commonActions::getFirst20AvailableAppointments() C:\Users\Harel\PhpstormProjects\newSilexProject\app\controllers.php:41
+[25-Apr-2017 17:39:49 Europe/Amsterdam] PHP   9. WorkHoursDBDAO::getAllEmpWorkHours() C:\Users\Harel\PhpstormProjects\newSilexProject\Project3\actions\commonActions.php:155
+[25-Apr-2017 17:39:49 Europe/Amsterdam] PHP Warning:  WorkHoursDBDAO::getAllEmpWorkHours(): Couldn't fetch mysqli in C:\Users\Harel\PhpstormProjects\newSilexProject\Project3\managers\WorkHoursDBDAO.php on line 56
+[25-Apr-2017 17:39:49 Europe/Amsterdam] PHP Stack trace:
+[25-Apr-2017 17:39:49 Europe/Amsterdam] PHP   1. {main}() C:\Users\Harel\PhpstormProjects\newSilexProject\web\index.php:0
+[25-Apr-2017 17:39:49 Europe/Amsterdam] PHP   2. Silex\Application->run() C:\Users\Harel\PhpstormProjects\newSilexProject\web\index.php:20
+[25-Apr-2017 17:39:49 Europe/Amsterdam] PHP   3. Silex\Application->handle() C:\Users\Harel\PhpstormProjects\newSilexProject\vendor\silex\silex\src\Silex\Application.php:477
+[25-Apr-2017 17:39:49 Europe/Amsterdam] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() C:\Users\Harel\PhpstormProjects\newSilexProject\vendor\silex\silex\src\Silex\Application.php:496
+[25-Apr-2017 17:39:49 Europe/Amsterdam] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() C:\Users\Harel\PhpstormProjects\newSilexProject\vendor\symfony\http-kernel\HttpKernel.php:68
+[25-Apr-2017 17:39:49 Europe/Amsterdam] PHP   6. call_user_func_array:{C:\Users\Harel\PhpstormProjects\newSilexProject\vendor\symfony\http-kernel\HttpKernel.php:153}() C:\Users\Harel\PhpstormProjects\newSilexProject\vendor\symfony\http-kernel\HttpKernel.php:153
+[25-Apr-2017 17:39:49 Europe/Amsterdam] PHP   7. {closure:C:\Users\Harel\PhpstormProjects\newSilexProject\app\controllers.php:37-45}() C:\Users\Harel\PhpstormProjects\newSilexProject\vendor\symfony\http-kernel\HttpKernel.php:153
+[25-Apr-2017 17:39:49 Europe/Amsterdam] PHP   8. commonActions::getFirst20AvailableAppointments() C:\Users\Harel\PhpstormProjects\newSilexProject\app\controllers.php:41
+[25-Apr-2017 17:39:49 Europe/Amsterdam] PHP   9. WorkHoursDBDAO::getAllEmpWorkHours() C:\Users\Harel\PhpstormProjects\newSilexProject\Project3\actions\commonActions.php:155
+[25-Apr-2017 17:39:49 Europe/Amsterdam] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on null in C:\Users\Harel\PhpstormProjects\newSilexProject\Project3\managers\WorkHoursDBDAO.php:59
+Stack trace:
+#0 C:\Users\Harel\PhpstormProjects\newSilexProject\Project3\actions\commonActions.php(155): WorkHoursDBDAO::getAllEmpWorkHours('2')
+#1 C:\Users\Harel\PhpstormProjects\newSilexProject\app\controllers.php(41): commonActions::getFirst20AvailableAppointments('2')
+#2 [internal function]: {closure}(Object(Symfony\Component\HttpFoundation\Request))
+#3 C:\Users\Harel\PhpstormProjects\newSilexProject\vendor\symfony\http-kernel\HttpKernel.php(153): call_user_func_array(Object(Closure), Array)
+#4 C:\Users\Harel\PhpstormProjects\newSilexProject\vendor\symfony\http-kernel\HttpKernel.php(68): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#5 C:\Users\Harel\PhpstormProjects\newSilexProject\vendor\silex\silex\src\Silex\Application.php(496): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Co in C:\Users\Harel\PhpstormProjects\newSilexProject\Project3\managers\WorkHoursDBDAO.php on line 59
+[25-Apr-2017 17:44:53 Europe/Amsterdam] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'admin'@'localhost' (using password: YES) in C:\Users\Harel\PhpstormProjects\newSilexProject\Project3\managers\SQLConnection.php on line 24
+[25-Apr-2017 17:44:53 Europe/Amsterdam] PHP Stack trace:
+[25-Apr-2017 17:44:53 Europe/Amsterdam] PHP   1. {main}() C:\Users\Harel\PhpstormProjects\newSilexProject\web\index.php:0
+[25-Apr-2017 17:44:53 Europe/Amsterdam] PHP   2. Silex\Application->run() C:\Users\Harel\PhpstormProjects\newSilexProject\web\index.php:15
+[25-Apr-2017 17:44:53 Europe/Amsterdam] PHP   3. Silex\Application->handle() C:\Users\Harel\PhpstormProjects\newSilexProject\vendor\silex\silex\src\Silex\Application.php:477
+[25-Apr-2017 17:44:53 Europe/Amsterdam] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() C:\Users\Harel\PhpstormProjects\newSilexProject\vendor\silex\silex\src\Silex\Application.php:496
+[25-Apr-2017 17:44:53 Europe/Amsterdam] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() C:\Users\Harel\PhpstormProjects\newSilexProject\vendor\symfony\http-kernel\HttpKernel.php:68
+[25-Apr-2017 17:44:53 Europe/Amsterdam] PHP   6. call_user_func_array:{C:\Users\Harel\PhpstormProjects\newSilexProject\vendor\symfony\http-kernel\HttpKernel.php:153}() C:\Users\Harel\PhpstormProjects\newSilexProject\vendor\symfony\http-kernel\HttpKernel.php:153
+[25-Apr-2017 17:44:53 Europe/Amsterdam] PHP   7. {closure:C:\Users\Harel\PhpstormProjects\newSilexProject\app\controllers.php:42-50}() C:\Users\Harel\PhpstormProjects\newSilexProject\vendor\symfony\http-kernel\HttpKernel.php:153
+[25-Apr-2017 17:44:53 Europe/Amsterdam] PHP   8. commonActions::getFirst20AvailableAppointments() C:\Users\Harel\PhpstormProjects\newSilexProject\app\controllers.php:46
+[25-Apr-2017 17:44:53 Europe/Amsterdam] PHP   9. WorkHoursDBDAO::getAllEmpWorkHours() C:\Users\Harel\PhpstormProjects\newSilexProject\Project3\actions\commonActions.php:155
+[25-Apr-2017 17:44:53 Europe/Amsterdam] PHP  10. SQLConnection::getConnection() C:\Users\Harel\PhpstormProjects\newSilexProject\Project3\managers\WorkHoursDBDAO.php:53
+[25-Apr-2017 17:44:53 Europe/Amsterdam] PHP  11. mysqli->__construct() C:\Users\Harel\PhpstormProjects\newSilexProject\Project3\managers\SQLConnection.php:24
+[25-Apr-2017 17:44:53 Europe/Amsterdam] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in C:\Users\Harel\PhpstormProjects\newSilexProject\Project3\managers\WorkHoursDBDAO.php on line 55
+[25-Apr-2017 17:44:53 Europe/Amsterdam] PHP Stack trace:
+[25-Apr-2017 17:44:53 Europe/Amsterdam] PHP   1. {main}() C:\Users\Harel\PhpstormProjects\newSilexProject\web\index.php:0
+[25-Apr-2017 17:44:53 Europe/Amsterdam] PHP   2. Silex\Application->run() C:\Users\Harel\PhpstormProjects\newSilexProject\web\index.php:15
+[25-Apr-2017 17:44:53 Europe/Amsterdam] PHP   3. Silex\Application->handle() C:\Users\Harel\PhpstormProjects\newSilexProject\vendor\silex\silex\src\Silex\Application.php:477
+[25-Apr-2017 17:44:53 Europe/Amsterdam] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() C:\Users\Harel\PhpstormProjects\newSilexProject\vendor\silex\silex\src\Silex\Application.php:496
+[25-Apr-2017 17:44:53 Europe/Amsterdam] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() C:\Users\Harel\PhpstormProjects\newSilexProject\vendor\symfony\http-kernel\HttpKernel.php:68
+[25-Apr-2017 17:44:53 Europe/Amsterdam] PHP   6. call_user_func_array:{C:\Users\Harel\PhpstormProjects\newSilexProject\vendor\symfony\http-kernel\HttpKernel.php:153}() C:\Users\Harel\PhpstormProjects\newSilexProject\vendor\symfony\http-kernel\HttpKernel.php:153
+[25-Apr-2017 17:44:53 Europe/Amsterdam] PHP   7. {closure:C:\Users\Harel\PhpstormProjects\newSilexProject\app\controllers.php:42-50}() C:\Users\Harel\PhpstormProjects\newSilexProject\vendor\symfony\http-kernel\HttpKernel.php:153
+[25-Apr-2017 17:44:53 Europe/Amsterdam] PHP   8. commonActions::getFirst20AvailableAppointments() C:\Users\Harel\PhpstormProjects\newSilexProject\app\controllers.php:46
+[25-Apr-2017 17:44:53 Europe/Amsterdam] PHP   9. WorkHoursDBDAO::getAllEmpWorkHours() C:\Users\Harel\PhpstormProjects\newSilexProject\Project3\actions\commonActions.php:155
+[25-Apr-2017 17:44:53 Europe/Amsterdam] PHP  10. mysqli->prepare() C:\Users\Harel\PhpstormProjects\newSilexProject\Project3\managers\WorkHoursDBDAO.php:55
+[25-Apr-2017 17:44:53 Europe/Amsterdam] PHP Warning:  WorkHoursDBDAO::getAllEmpWorkHours(): Couldn't fetch mysqli in C:\Users\Harel\PhpstormProjects\newSilexProject\Project3\managers\WorkHoursDBDAO.php on line 56
+[25-Apr-2017 17:44:53 Europe/Amsterdam] PHP Stack trace:
+[25-Apr-2017 17:44:53 Europe/Amsterdam] PHP   1. {main}() C:\Users\Harel\PhpstormProjects\newSilexProject\web\index.php:0
+[25-Apr-2017 17:44:53 Europe/Amsterdam] PHP   2. Silex\Application->run() C:\Users\Harel\PhpstormProjects\newSilexProject\web\index.php:15
+[25-Apr-2017 17:44:53 Europe/Amsterdam] PHP   3. Silex\Application->handle() C:\Users\Harel\PhpstormProjects\newSilexProject\vendor\silex\silex\src\Silex\Application.php:477
+[25-Apr-2017 17:44:53 Europe/Amsterdam] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() C:\Users\Harel\PhpstormProjects\newSilexProject\vendor\silex\silex\src\Silex\Application.php:496
+[25-Apr-2017 17:44:53 Europe/Amsterdam] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() C:\Users\Harel\PhpstormProjects\newSilexProject\vendor\symfony\http-kernel\HttpKernel.php:68
+[25-Apr-2017 17:44:53 Europe/Amsterdam] PHP   6. call_user_func_array:{C:\Users\Harel\PhpstormProjects\newSilexProject\vendor\symfony\http-kernel\HttpKernel.php:153}() C:\Users\Harel\PhpstormProjects\newSilexProject\vendor\symfony\http-kernel\HttpKernel.php:153
+[25-Apr-2017 17:44:53 Europe/Amsterdam] PHP   7. {closure:C:\Users\Harel\PhpstormProjects\newSilexProject\app\controllers.php:42-50}() C:\Users\Harel\PhpstormProjects\newSilexProject\vendor\symfony\http-kernel\HttpKernel.php:153
+[25-Apr-2017 17:44:53 Europe/Amsterdam] PHP   8. commonActions::getFirst20AvailableAppointments() C:\Users\Harel\PhpstormProjects\newSilexProject\app\controllers.php:46
+[25-Apr-2017 17:44:53 Europe/Amsterdam] PHP   9. WorkHoursDBDAO::getAllEmpWorkHours() C:\Users\Harel\PhpstormProjects\newSilexProject\Project3\actions\commonActions.php:155
+[25-Apr-2017 17:44:53 Europe/Amsterdam] PHP Warning:  WorkHoursDBDAO::getAllEmpWorkHours(): Couldn't fetch mysqli in C:\Users\Harel\PhpstormProjects\newSilexProject\Project3\managers\WorkHoursDBDAO.php on line 56
+[25-Apr-2017 17:44:53 Europe/Amsterdam] PHP Stack trace:
+[25-Apr-2017 17:44:53 Europe/Amsterdam] PHP   1. {main}() C:\Users\Harel\PhpstormProjects\newSilexProject\web\index.php:0
+[25-Apr-2017 17:44:53 Europe/Amsterdam] PHP   2. Silex\Application->run() C:\Users\Harel\PhpstormProjects\newSilexProject\web\index.php:15
+[25-Apr-2017 17:44:53 Europe/Amsterdam] PHP   3. Silex\Application->handle() C:\Users\Harel\PhpstormProjects\newSilexProject\vendor\silex\silex\src\Silex\Application.php:477
+[25-Apr-2017 17:44:53 Europe/Amsterdam] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() C:\Users\Harel\PhpstormProjects\newSilexProject\vendor\silex\silex\src\Silex\Application.php:496
+[25-Apr-2017 17:44:53 Europe/Amsterdam] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() C:\Users\Harel\PhpstormProjects\newSilexProject\vendor\symfony\http-kernel\HttpKernel.php:68
+[25-Apr-2017 17:44:53 Europe/Amsterdam] PHP   6. call_user_func_array:{C:\Users\Harel\PhpstormProjects\newSilexProject\vendor\symfony\http-kernel\HttpKernel.php:153}() C:\Users\Harel\PhpstormProjects\newSilexProject\vendor\symfony\http-kernel\HttpKernel.php:153
+[25-Apr-2017 17:44:53 Europe/Amsterdam] PHP   7. {closure:C:\Users\Harel\PhpstormProjects\newSilexProject\app\controllers.php:42-50}() C:\Users\Harel\PhpstormProjects\newSilexProject\vendor\symfony\http-kernel\HttpKernel.php:153
+[25-Apr-2017 17:44:53 Europe/Amsterdam] PHP   8. commonActions::getFirst20AvailableAppointments() C:\Users\Harel\PhpstormProjects\newSilexProject\app\controllers.php:46
+[25-Apr-2017 17:44:53 Europe/Amsterdam] PHP   9. WorkHoursDBDAO::getAllEmpWorkHours() C:\Users\Harel\PhpstormProjects\newSilexProject\Project3\actions\commonActions.php:155
+[25-Apr-2017 17:44:53 Europe/Amsterdam] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on null in C:\Users\Harel\PhpstormProjects\newSilexProject\Project3\managers\WorkHoursDBDAO.php:59
+Stack trace:
+#0 C:\Users\Harel\PhpstormProjects\newSilexProject\Project3\actions\commonActions.php(155): WorkHoursDBDAO::getAllEmpWorkHours('2')
+#1 C:\Users\Harel\PhpstormProjects\newSilexProject\app\controllers.php(46): commonActions::getFirst20AvailableAppointments('2')
+#2 [internal function]: {closure}(Object(Symfony\Component\HttpFoundation\Request))
+#3 C:\Users\Harel\PhpstormProjects\newSilexProject\vendor\symfony\http-kernel\HttpKernel.php(153): call_user_func_array(Object(Closure), Array)
+#4 C:\Users\Harel\PhpstormProjects\newSilexProject\vendor\symfony\http-kernel\HttpKernel.php(68): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#5 C:\Users\Harel\PhpstormProjects\newSilexProject\vendor\silex\silex\src\Silex\Application.php(496): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Co in C:\Users\Harel\PhpstormProjects\newSilexProject\Project3\managers\WorkHoursDBDAO.php on line 59
+[25-Apr-2017 20:02:46 Europe/Amsterdam] PHP Warning:  json_decode() expects parameter 1 to be string, array given in C:\Users\Harel\PhpstormProjects\newSilexProject\app\controllers.php on line 50
+[25-Apr-2017 20:02:46 Europe/Amsterdam] PHP Stack trace:
+[25-Apr-2017 20:02:46 Europe/Amsterdam] PHP   1. {main}() C:\Users\Harel\PhpstormProjects\newSilexProject\web\index.php:0
+[25-Apr-2017 20:02:46 Europe/Amsterdam] PHP   2. Silex\Application->run() C:\Users\Harel\PhpstormProjects\newSilexProject\web\index.php:15
+[25-Apr-2017 20:02:46 Europe/Amsterdam] PHP   3. Silex\Application->handle() C:\Users\Harel\PhpstormProjects\newSilexProject\vendor\silex\silex\src\Silex\Application.php:477
+[25-Apr-2017 20:02:46 Europe/Amsterdam] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() C:\Users\Harel\PhpstormProjects\newSilexProject\vendor\silex\silex\src\Silex\Application.php:496
+[25-Apr-2017 20:02:46 Europe/Amsterdam] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() C:\Users\Harel\PhpstormProjects\newSilexProject\vendor\symfony\http-kernel\HttpKernel.php:68
+[25-Apr-2017 20:02:46 Europe/Amsterdam] PHP   6. call_user_func_array:{C:\Users\Harel\PhpstormProjects\newSilexProject\vendor\symfony\http-kernel\HttpKernel.php:153}() C:\Users\Harel\PhpstormProjects\newSilexProject\vendor\symfony\http-kernel\HttpKernel.php:153
+[25-Apr-2017 20:02:46 Europe/Amsterdam] PHP   7. {closure:C:\Users\Harel\PhpstormProjects\newSilexProject\app\controllers.php:43-51}() C:\Users\Harel\PhpstormProjects\newSilexProject\vendor\symfony\http-kernel\HttpKernel.php:153
+[25-Apr-2017 20:02:46 Europe/Amsterdam] PHP   8. json_decode() C:\Users\Harel\PhpstormProjects\newSilexProject\app\controllers.php:50
